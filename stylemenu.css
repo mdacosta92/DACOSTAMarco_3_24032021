@@ -224,7 +224,7 @@ header > img
   opacity: 0;
 }
 
-.starter > .menu:nth-child(2)
+.starter > .menu:nth-child(5)
 {
   animation-delay: 1s;
 }
@@ -234,7 +234,7 @@ header > img
   animation-delay: 1.3s;
 }
 
-.starter > .menu:nth-child(5)
+.starter > .menu:nth-child(2)
 {
   animation-delay: 1.6s;
 }
