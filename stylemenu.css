@@ -16,6 +16,7 @@ header > a > i
   text-decoration: none;
   color: black;
 }
+
 header > img
 {
   height: 40px;
@@ -26,6 +27,7 @@ header > img
 {
   position: relative;
 }
+
 .subheader > img
 {
   width: 100%;
@@ -39,12 +41,13 @@ header > img
     position: relative;
     text-align: justify;
 }
+
 .spinner {
     cursor: progress;
     position: absolute;
     width: 100%;
     height: 100%;
-  	-webkit-animation: seconds 1.0s forwards;
+	-webkit-animation: seconds 1.0s forwards;
   	-webkit-animation-iteration-count: 1;
   	-webkit-animation-delay: 5s;
   	animation: seconds 1.0s forwards;
@@ -63,6 +66,7 @@ header > img
     background: #FF79DA;
     opacity: 0.6;
 }
+
 .spinner:after {
     box-sizing: border-box;
     z-index: 10002;
@@ -79,29 +83,21 @@ header > img
     animation: custom-loading 1s linear infinite;
 }
 
-@keyframes custom-loading {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+@keyframes custom-loading 
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes seconds 
+{
+	0% {opacity: 1;}
+	100% {opacity: 0; left: -9999px;}
 }
 
-@-webkit-keyframes seconds {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    left: -9999px; 
-  }
-}
 @keyframes seconds 
 {
-  0% {
-  	opacity: 1;
-	}
-  100% {
-  	opacity: 0;
-    left: -9999px;
-	}
+	0% {opacity: 1;}
+	100% {opacity: 0; left: -9999px;}
 }
 
 .title
@@ -121,46 +117,47 @@ header > img
 
 .title > h2
 {
-  font-size: 20px;
-  padding-left: 50px;
+	font-size: 20px;
+	padding-left: 50px;
 }
-    .heart
-    {
-        display: flex;
+
+.heart
+{
+	display: flex;
         width: 5%;
         height: 100%;            
         position: relative;
         left: 0;
         padding-right: 5px;
-    }
+}
 
-    .fas
-    {
-    margin-top: 3px;
-    }
+.fas
+{
+	margin-top: 3px;
+}
 
-    .like
-    {
-      visibility: hidden;
-      color: #a45bdc;
-      transform: scale(1);
-    }
-    .empty
-    {
-      color: black;
-      position: absolute;
-    }
+.like
+{
+	visibility: hidden;
+	color: #a45bdc;
+	transform: scale(1);
+}
+.empty
+{
+	color: black;
+	position: absolute;
+}
 
     .heart:hover
     {
- 		visibility: hidden;
+ 	visibility: hidden;
     }
 
     .heart:hover > .empty + .like
     {
-    visibility: visible;
-    transform: scale(1.4);
-    transition: 2s;
+	    visibility: visible;
+	    transform: scale(1.4);
+	    transition: 2s;
     }
 
 #card
@@ -279,12 +276,8 @@ animation-delay: 2.6s;
 }
 
 @keyframes appear {
-  0%   {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 
@@ -323,11 +316,11 @@ animation-delay: 2.6s;
 
 .price
 {
-  border-bottom-right-radius: 25px;
-  padding-right: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  background: none;
+	border-bottom-right-radius: 25px;
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	background: none;
 }
 
 .menu:hover > .description
@@ -353,18 +346,21 @@ animation-delay: 2.6s;
         text-overflow: ellipsis;
 }
 
-    @-webkit-keyframes price {
+    @-webkit-keyframes price 
+{
         0% {width:100%}
         100% {width: 75%;} 
-    }
-    @-moz-keyframes price {
+}
+    @-moz-keyframes price 
+{
         0% {width:100%}
         100% {width:75%;}
-    }
-    @keyframes price {
+}
+    @keyframes price 
+{
         0% {width:100%}
         100% {width:75%;}
-    }
+}
 
 .button 
 {
@@ -410,20 +406,23 @@ animation-delay: 2.6s;
         -ms-animation: check 1s ease-in forwards;
         -o-animation: check 1s ease-in forwards;
         animation: check 1s ease-in forwards;
-    }
+}
 
-    @-webkit-keyframes check {
+    @-webkit-keyframes check 
+{
         0% {width:0%}
         100% {width:25%;}
-    }
-    @-moz-keyframes check {
+}
+    @-moz-keyframes check 
+{
         0% {width:0%}
         100% {width:25%;}
-    }
-    @keyframes check {
+}
+    @keyframes check 
+{
         0% {width:0%}
         100% {width:25%;}
-    }
+}
 
 .menu:hover > .check > .fas
 {
@@ -435,7 +434,8 @@ animation-delay: 2.6s;
     animation: checking 1s linear ;
 }
 
-@keyframes checking {
+@keyframes checking 
+{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
@@ -475,32 +475,32 @@ button:hover
     animation: grade 4s ease infinite;
 }
 
-@-webkit-keyframes grade {
+@-webkit-keyframes grade 
+{
     0%{background-position:45% 0%}
     50%{background-position:56% 50%}
     100%{background-position:45% 0%}
 }
-@-moz-keyframes grade {
-    0%{background-position:45% 0%}
-    50%{background-position:56% 100%}
-    100%{background-position:45% 0%}
-}
-@keyframes grade {
+
+@-moz-keyframes grade 
+{
     0%{background-position:45% 0%}
     50%{background-position:56% 100%}
     100%{background-position:45% 0%}
 }
 
-@keyframes background {
-  0% 
-  {
-    background-position: 0 0;
-  }
+@keyframes grade 
+{
+    0%{background-position:45% 0%}
+    50%{background-position:56% 100%}
+    100%{background-position:45% 0%}
+}
 
-  100% 
-  {
-    background-position: 400px 0;
-  }
+@keyframes background 
+{
+  0% {background-position: 0 0;}
+
+  100% {background-position: 400px 0;}
 }
 
 
@@ -548,13 +548,13 @@ body
 
 @media (min-width: 1024px)
 {
-  header
-  {
+ header
+ {
     height: 110px;
     position: relative;
-  }
+ }
 
-  header > img
+ header > img
  {
   margin: 0;
   position: absolute;
@@ -563,15 +563,16 @@ body
   left: 70%;
   -ms-transform: translate(-25%);
   transform: translate(-25%, -50%);
-}
-  header > a > i
-  {
+ }
+	
+header > a > i
+ {
   margin: 0;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  }
+ }
 
   .title
   {
@@ -613,12 +614,12 @@ body
   }
 
   .starter > p:hover:before, .dishes > p:hover:before, .dessert > p:hover:before
-{
+  {
   transition-duration: 1s;
   visibility: visible;
   padding-left: 50px;
-  width: 23px;
-}
+  width: 23px; 
+  }
 
   .button
   {
