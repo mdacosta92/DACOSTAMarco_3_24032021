@@ -13,13 +13,16 @@ header > img
 	object-fit: cover;
 }
 
-.loading {
+.loading 
+{
     width: 200px;
     margin: 0 auto;
     position: relative;
     text-align: justify;
 }
-.spinner {
+
+.spinner 
+{
     cursor: progress;
     position: absolute;
     width: 100%;
@@ -43,6 +46,7 @@ header > img
     background: #FF79DA;
     opacity: 0.6;
 }
+
 .spinner:after {
     box-sizing: border-box;
     z-index: 10002;
@@ -59,30 +63,23 @@ header > img
     animation: custom-loading 1s linear infinite;
 }
 
-@keyframes custom-loading {
+@keyframes custom-loading 
+{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
-@-webkit-keyframes seconds {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    left: -9999px; 
-  }
+@-webkit-keyframes seconds 
+{
+  0% {opacity: 1;}
+  100% {opacity: 0; left: -9999px;}
 }
 @keyframes seconds 
 {
-  0% {
-  	opacity: 1;
-	}
-  100% {
-  	opacity: 0;
-    left: -9999px;
-	}
+  0% {opacity: 1;}
+  100% {opacity: 0;left: -9999px;}
 }
+
 body
 {
 	margin-left: 0;
@@ -147,14 +144,14 @@ input.search_input:focus
 
 .search_subcontainer > h2
 {
-	font-weight: 800;
-	margin-bottom: 0;
+  font-weight: 800;
+  margin-bottom: 0;
 }
 
 .search_subcontainer > p
 {
-	color: grey;
-	padding-bottom: 20px;
+  color: grey;
+  padding-bottom: 20px;
 }
 
 .button 
@@ -204,32 +201,31 @@ button:hover
     animation: grade 4s ease infinite;
 }
 
-@-webkit-keyframes grade {
+@-webkit-keyframes grade 
+{
     0%{background-position:45% 0%}
     50%{background-position:56% 50%}
     100%{background-position:45% 0%}
 }
-@-moz-keyframes grade {
-    0%{background-position:45% 0%}
-    50%{background-position:56% 100%}
-    100%{background-position:45% 0%}
-}
-@keyframes grade {
+
+@-moz-keyframes grade 
+{
     0%{background-position:45% 0%}
     50%{background-position:56% 100%}
     100%{background-position:45% 0%}
 }
 
-@keyframes background {
-  0% 
-  {
-    background-position: 0 0;
-  }
+@keyframes grade 
+{
+    0%{background-position:45% 0%}
+    50%{background-position:56% 100%}
+    100%{background-position:45% 0%}
+}
 
-  100% 
-  {
-    background-position: 400px 0;
-  }
+@keyframes background 
+{
+  0% {background-position: 0 0;}
+  100% {background-position: 400px 0;}
 }
 
 .functioning
@@ -275,6 +271,7 @@ button:hover
 	box-shadow: 5px 6px 5px #e8e8e8;
 	align-self: center;
 }
+
 .functioning > nav > ul > li > i.fas.fa-mobile-alt
 {
 	padding-left: 25px;
@@ -376,7 +373,7 @@ button:hover
 	padding-right: 10px;
 }
 
-    .heart
+.heart
     {
         display: flex;
         width: 5%;
@@ -385,30 +382,31 @@ button:hover
         padding-right: 5px;
     }
 
-    .fas
+.fas
     {
     margin-top: -4px;
     }
 
-    .like
+.like
     {
       visibility: hidden;
       color: #a45bdc;
       transform: scale(1);
    	margin-bottom: 4px;
     }
-    .empty
+
+.empty
     {
       color: black;
       position: absolute;
     }
 
-    .heart:hover
+.heart:hover
     {
     visibility: hidden;
     }
 
-    .heart:hover > .empty + .like
+.heart:hover > .empty + .like
     {
     visibility: visible;
     transform: scale(1.4);
@@ -463,46 +461,48 @@ body
 
 @media (min-width: 1024px)
 {
-	header > img
-	{
+header > img
+ {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 30%;
-	}
+ }
 
-	.search_container
-	{
+.search_container
+ {
 	justify-content: left;
-	}
-	.search_subcontainer
-	{
+ }
+.search_subcontainer
+ {
 	margin-bottom: 40px ;
-	}
+ }
 
-	.functioning
-	{
+.functioning
+ {
 	margin-bottom: 40px;
-	}
-	.search_subcontainer > h2 > br
-	{
+ }
+.search_subcontainer > h2 > br
+ {
 	display: none;
-	}
-	.search_subcontainer > p > br
-	{
+ }
+.search_subcontainer > p > br
+ {
 	display: none;
-	}
+ }
 
-	.functioning > nav > ul
-	{
+.functioning > nav > ul
+ {
 	display: flex;
 	flex-direction: row;
-	}
-	.functioning > nav > ul > li
-	{
+ }
+	
+.functioning > nav > ul > li
+ {
 	width: 33%;
-	}
-	.functioning > nav > ul > li > h6
-	{
+ }
+	
+.functioning > nav > ul > li > h6
+ {
 	color: white;
 	background-color: #9356dc;
 	padding: 2px 5px 2px 5px;
@@ -517,46 +517,46 @@ body
 	border-radius: 150px;
 	display: flex;
 	align-self: center;
-	}
+ }
 
-	.panel
-	{
-		background-color: #f6f6f6;
-		padding-top: 15px;
-		padding-bottom: 50px;
-	}
+.panel
+ {
+	background-color: #f6f6f6;
+	padding-top: 15px;
+	padding-bottom: 50px;
+ }
 
-	.restaurants
-	{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		padding-top: 0;
-	}
-	.restaurants > a > figure
-	{
+.restaurants
+ {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 0;
+ }
+.restaurants > a > figure
+ {
 	height: 300px;
 	width: 450px;
-	}
-	.restaurants > a > figure > img
-	{
+ }
+.restaurants > a > figure > img
+ {
 	height: 250px;
-	}
+ }
 
-  	footer > nav > ul
-  	{
+ footer > nav > ul
+ {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
     padding-left: 0;
     padding-bottom: 25px;
-  	}
+ }
 
   footer > img
-  	{
+ {
     width:  10%;
     margin-left: 8%;
-  	}
+ }
 }
