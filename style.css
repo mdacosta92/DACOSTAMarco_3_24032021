@@ -334,6 +334,7 @@ input.search_input{
 footer {
 	background-color: #353535;
 	height: 100%;
+	font-family: Roboto;
 }
 	footer > img {
 		padding-top: 20px;
@@ -357,6 +358,9 @@ footer > nav > ul > li {
 	footer > nav > ul > li > .fas {
 		padding-right: 10px;
 }
+	footer > nav > ul > li > a
+{
+	text-decoration: none;
 
 h2 {
 	font-family: roboto;
