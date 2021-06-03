@@ -310,7 +310,6 @@ input.search_input{
     		visibility: visible;
     		transform: scale(1.4);
     		transition: 2s;
-		padding-right: 10px;
 }
 
 		.like {
