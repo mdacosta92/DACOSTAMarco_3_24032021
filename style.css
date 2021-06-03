@@ -359,7 +359,8 @@ footer > nav > ul > li {
 	footer > nav > ul > li > .fas {
 		padding-right: 10px;
 }
-	footer > nav > ul > li > a
+
+a
 {
 	text-decoration: none;
 }
