@@ -211,7 +211,6 @@ input.search_input{
 }
 		.functioning > nav > ul > li > i.fas {
 			padding-right: 20px;
-			padding-left: 15px;
 			background-color: #f6f6f6;
 			border-top-left-radius: 25px;
 			border-bottom-left-radius: 25px;
@@ -220,6 +219,7 @@ input.search_input{
 			box-shadow: 5px 6px 5px #e8e8e8;
 			align-self: center;
 			padding-left: 25px;
+			margin-left: 12px;
 }
 
 		.functioning > nav > ul > li > p {
@@ -229,6 +229,7 @@ input.search_input{
 			margin-top: 0;
 			padding-top: 25px;
 			padding-bottom: 0;
+			margin-right: 12px;
 			margin-bottom: 	4px;
 			border-top-right-radius: 25px;
 			border-bottom-right-radius: 25px;
