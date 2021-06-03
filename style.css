@@ -310,6 +310,7 @@ input.search_input{
     		visibility: visible;
     		transform: scale(1.4);
     		transition: 2s;
+		padding-right: 20px;
 }
 
 		.like {
@@ -317,14 +318,17 @@ input.search_input{
     			color: #a45bdc;
     			transform: scale(1);
    			margin-bottom: 4px;
+			padding-right: 20px;
 }
 		.empty {
      			color: black;
       			position: absolute;
+			padding-right: 20px;
 }
 
 		.fas {
  			margin-top: -4px;
+			padding-right: 20px;
  }
 
 footer {
