@@ -440,6 +440,11 @@ footer > nav > ul {
   			padding-right: 10px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 body {
   margin-bottom: 0;
   margin-right: 0;
