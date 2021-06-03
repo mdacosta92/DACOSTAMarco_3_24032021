@@ -183,6 +183,7 @@ input.search_input{
 .functioning {
 	font-family: roboto, sans-serif;
 	font-weight: 700;
+	background-color: white;
 }
 	.functioning > h2 {
 		font-size: 20px;
