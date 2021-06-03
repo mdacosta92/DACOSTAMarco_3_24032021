@@ -360,8 +360,8 @@ footer > nav > ul > li {
 	footer > nav > ul > li > .fas {
 		padding-right: 10px;
 }
-footer > nav > ul > li > a > p
-{
+a {
+	color: white;
 	text-decoration: none;
 }
 
