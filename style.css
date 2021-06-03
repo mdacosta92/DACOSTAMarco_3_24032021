@@ -344,6 +344,7 @@ footer {
 }
 		footer > nav > ul {
 			list-style-type: none;
+			text-decoration: none;
 			color: white;
 			padding-left: 20px;
 			margin-bottom: 0;
