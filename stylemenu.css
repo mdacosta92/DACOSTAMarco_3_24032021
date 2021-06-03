@@ -111,7 +111,7 @@ header  {
         height: 100%;            
         position: relative;
         left: 0;
-        padding-right: 5px;
+        padding-right: 15px;
 }
     .heart:hover {
  	visibility: hidden;
