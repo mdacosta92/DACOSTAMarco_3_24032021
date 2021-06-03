@@ -435,6 +435,7 @@ footer > nav > ul {
   	display: flex;
 	flex-direction: row;
 	align-items: baseline;
+	text-decoration: none;
 }
 		footer > nav > ul > li > .fas {
   			padding-right: 10px;
