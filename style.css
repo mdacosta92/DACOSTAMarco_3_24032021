@@ -299,7 +299,7 @@ input.search_input{
         width: 5%;
         height: 100%;            
         position: relative;
-        padding-right: 5px;
+        padding-right: 20px;
 }
 	.heart:hover {
     		visibility: hidden;
