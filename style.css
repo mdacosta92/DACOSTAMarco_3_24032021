@@ -184,6 +184,7 @@ input.search_input{
 	font-family: roboto, sans-serif;
 	font-weight: 700;
 	background-color: white;
+	padding-bottom: 15px;
 }
 	.functioning > h2 {
 		font-size: 20px;
@@ -318,7 +319,7 @@ input.search_input{
     			color: #a45bdc;
     			transform: scale(1);
    			margin-bottom: 4px;
-			padding-right: 15px;
+			padding-right: 10px;
 }
 		.empty {
      			color: black;
