@@ -242,7 +242,6 @@ input.search_input{
 .restaurants {
 	font-family: roboto, sans-serif;
 	font-weight: 300;
-	padding-top: 20px;
 	background-color: #f6f6f6;
 }
 	.restaurants > a {
