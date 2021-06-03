@@ -261,6 +261,7 @@ input.search_input{
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	padding-bottom: 15px;
+	margin: 30px 40px;
 	box-shadow: 5px 5px 5px #e8e8e8;
 }
 	.restaurants a > figure > img {
