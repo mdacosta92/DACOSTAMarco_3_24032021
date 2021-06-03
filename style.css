@@ -300,7 +300,7 @@ input.search_input{
         width: 5%;
         height: 100%;            
         position: relative;
-        padding-right: 15px;
+        padding-right: 10px;
 }
 	.heart:hover {
     		visibility: hidden;
@@ -310,7 +310,7 @@ input.search_input{
     		visibility: visible;
     		transform: scale(1.4);
     		transition: 2s;
-		padding-right: 15px;
+		padding-right: 10px;
 }
 
 		.like {
@@ -323,12 +323,12 @@ input.search_input{
 		.empty {
      			color: black;
       			position: absolute;
-			padding-right: 20px;
+			padding-right: 10px;
 }
 
 		.fas {
  			margin-top: -4px;
-			padding-right: 15px;
+			padding-right: 10px;
  }
 
 footer {
