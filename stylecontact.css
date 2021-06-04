@@ -1,78 +1,21 @@
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+input, textarea {
   color: #9356DC;
   font-size: 12px;
 }
 
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+input:focus, textarea:focus {
   color: #9356DC;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #9356DC;
-  font-size: 12px;
-}
-
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #9356DC;
-}
-
-input::placeholder, textarea::placeholder {
-  color: #9356DC;
-  font-size: 12px;
-}
-
-input:focus::placeholder, textarea::focus:placeholder {
-  color: #9356DC;
-}
-
-input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #9356DC;
-  font-size: 12px;
-}
-
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #9356DC;
-}
-
-/* on hover placeholder */
-
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+input:hover, textarea:hover {
   color: #e2dedb;
   font-size: 12px;
 }
 
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+input:hover:focus, textarea:hover:focus {
   color: #cbc6c1;
 }
-
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
-  font-size: 12px;
-}
-
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 12px;
-}
-
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 12px;
-}
-
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: #cbc6c1;
-}
-
 body {
   font-family: Roboto, sans-serif;
   background: #353535;
