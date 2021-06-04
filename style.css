@@ -286,6 +286,7 @@ input.search_input{
 	padding-bottom: 15px;
 	margin: 30px 40px;
 	box-shadow: 5px 5px 5px #e8e8e8;
+	position: relative;
 }
 	.restaurants a > figure > img {
 		width: 100%;
@@ -297,6 +298,18 @@ input.search_input{
 	.restaurants a > figure > figcaption {
 		padding-left: 5px;
 		padding-left: 10px;
+}
+	.restaurants a > figure > p {
+  		position: absolute;
+  		top: 1px;
+  		left: 350px;
+  		color: white;
+  		font-weight: 700;
+  		background-color: #99E2D0;
+  		padding-left: 10px;
+  		padding-right: 10px;
+  		padding-top: 5px;
+  		padding-bottom: 5px;
 }
 
 .location {
