@@ -302,7 +302,7 @@ input.search_input{
 	.restaurants a > figure > p {
   		position: absolute;
   		top: 1px;
-  		left: 350px;
+  		right: 10px;
   		color: white;
   		font-weight: 700;
   		background-color: #99E2D0;
